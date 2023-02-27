@@ -16,7 +16,8 @@ const Genre = mongoose.model(
       maxlength: 50,
     },
     _id: {
-      type: String
+      type: String,
+      default: mongoose.Types.ObjectId,
     }
   })
 );
