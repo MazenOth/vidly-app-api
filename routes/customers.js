@@ -1,37 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const Joy = require("joi");
-const mongoose = require("mongoose");
+const { Customer, validate } = require("../models/customer");
 
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
-
-const Customer = mongoose.model(
-  "Customer",
-  new mongoose.Schema({
-    isGold: {
-      type: Boolean,
-      default: false,
-    },
-    name: {
-      type: String,
-      required: true,
-      minlength: 5,
-      maxlength: 50,
-    },
-    phone: {
-      type: String,
-      required: true,
-      minlength: 5,
-      maxlength: 50,
-      match: /[0-9]/,
-    },
-    _id: {
-      type: String,
-      default: mongoose.Types.ObjectId,
-    },
-  })
-);
 
 router.get("/", async (req, res) => {
   const customers = await Customer.find().sort("name");
@@ -39,7 +11,7 @@ router.get("/", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-  const { error } = validateCustomer(req.body);
+  const { error } = validate(req.body);
 
   if (error) {
     return res.status(400).send(error.details[0].message);
@@ -54,7 +26,7 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const { error } = validateCustomer(req.body);
+  const { error } = validate(req.body);
 
   if (error) {
     return res.status(400).send(error.details[0].message);
@@ -87,14 +59,5 @@ router.get("/:id", async (req, res) => {
     res.status(404).send("The customer with the given ID wasn't found.");
   res.send(customer);
 });
-
-function validateCustomer(customer) {
-  const schema = Joy.object({
-    name: Joy.string().min(5).max(50).required(),
-    phone: Joy.string().min(5).max(50).pattern(/[0-9]/).required(),
-    isGold: Joy.boolean(),
-  });
-  return schema.validate(customer);
-}
 
 module.exports = router;
