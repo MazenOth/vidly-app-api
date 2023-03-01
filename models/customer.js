@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Joy = require("joi");
+const Joi = require("joi");
 
 const Customer = mongoose.model(
   "Customer",
@@ -29,10 +29,10 @@ const Customer = mongoose.model(
 );
 
 function validateCustomer(customer) {
-  const schema = Joy.object({
-    name: Joy.string().min(5).max(50).required(),
-    phone: Joy.string().min(5).max(50).pattern(/[0-9]/).required(),
-    isGold: Joy.boolean(),
+  const schema = Joi.object({
+    name: Joi.string().min(5).max(50).required(),
+    phone: Joi.string().min(5).max(50).pattern(/[0-9]/).required(),
+    isGold: Joi.boolean(),
   });
   return schema.validate(customer);
 }

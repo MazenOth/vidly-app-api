@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const genres = require("./routes/genres");
 const customers = require("./routes/customers");
+const movies = require("./routes/movies");
 const home = require("./routes/home");
 
 mongoose.set("strictQuery", false);
@@ -13,6 +14,7 @@ mongoose
 
 app.use("/vidly.com/api/genres", genres);
 app.use("/vidly.com/api/customers", customers);
+app.use("/vidly.com/api/movies", movies);
 app.use("/vidly.com/", home);
 
 const port = process.env.PORT || 3000;
