@@ -7,7 +7,7 @@ const genreSchema = new mongoose.Schema({
     required: true,
     enum: ["Sci-Fi", "Action", "Thriller", "Comedy", "Drama"],
     minlength: 5,
-    maxlength: 50,
+    maxlength: 50,  
   },
   _id: {
     type: String,

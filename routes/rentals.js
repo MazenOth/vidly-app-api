@@ -2,11 +2,8 @@ const { Rental, validate } = require("../models/rental");
 const { Movie } = require("../models/movie");
 const { Customer } = require("../models/customer");
 const mongoose = require("mongoose");
-const Fawn = require("fawn");
 const express = require("express");
 const router = express.Router();
-
-Fawn.init("mongodb://127.0.0.1:27017/vidlyApi");
 
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
@@ -45,18 +42,18 @@ router.post("/", async (req, res) => {
   });
 
   try {
-    new Fawn.Task()
-      .save("rentals", rental)
-      .update("movies", { _id: movie._id }, {
-        $inc: { numberInStock: -1 }
-      })
-      .run();
-  
-    res.send(rental);     
-  }
+    const session = await mongoose.startSession();
+    await session.withTransaction(async () => {
+      const result = await rental.save();
+      movie.numberInStock--;
+      movie.save();
+      res.send(result);
+    });
 
-  catch(ex) {
-    res.status(500).send("Something failed.")
+    session.endSession();
+    console.log('success');
+  } catch (error) {
+    console.log('error111', error.message);
   }
 });
 
