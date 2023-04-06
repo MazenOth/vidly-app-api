@@ -5,8 +5,8 @@ const { Genre, validate } = require("../models/genre");
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
-const p = Promise.reject(new Error("Something failed DRAMATICLY!"));
-p.then(() => console.log("Done"));
+// const p = Promise.reject(new Error("Something failed DRAMATICLY!"));
+// p.then(() => console.log("Done"));
 
 router.get("/", async (req, res, next) => {
   throw new Error("Could not get the genres.");

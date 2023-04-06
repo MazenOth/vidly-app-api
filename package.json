@@ -17,6 +17,7 @@
     "joi-objectid": "^4.0.2",
     "mongoose": "^6.10.0",
     "winston": "^3.8.2",
+    "winston-loggly-bulk": "^3.2.1",
     "winston-mongodb": "^5.1.1"
   }
 }
