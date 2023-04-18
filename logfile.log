@@ -64,3 +64,178 @@
 {"level":"info","message":"Connected to MongoDB..."}
 {"level":"info","message":"Listening on port 3000..."}
 {"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema) Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","stack":"MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)\n    at Mongoose.model (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\mongoose\\lib\\index.js:554:13)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:4:23)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:5:28)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)"}
+{"level":"error","message":"userS is not defined userS is not defined","stack":"ReferenceError: userS is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:4:37)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:5:28)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"userSchema is not defined userSchema is not defined","stack":"ReferenceError: userSchema is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:4:37)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:5:28)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"jwt is not defined jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at userSchema.methods.generateAuthToken (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:31:17)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:27:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"jwt is not defined jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at userSchema.methods.generateAuthToken (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:31:17)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:27:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"_message":"Genre validation failed","errors":{"name":{"kind":"enum","message":"`Scary` is not a valid enum value for path `name`.","name":"ValidatorError","path":"name","properties":{"enumValues":["Sci-Fi","Action","Thriller","Comedy","Drama"],"message":"`Scary` is not a valid enum value for path `name`.","path":"name","type":"enum","value":"Scary"},"value":"Scary"}},"level":"error","message":"Genre validation failed: name: `Scary` is not a valid enum value for path `name`. Genre validation failed: name: `Scary` is not a valid enum value for path `name`.","stack":"ValidationError: Genre validation failed: name: `Scary` is not a valid enum value for path `name`.\n    at Document.invalidate (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\mongoose\\lib\\document.js:2913:17\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\mongoose\\lib\\schematype.js:1349:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"Missing initializer in const declaration Missing initializer in const declaration","stack":"D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:13\n  const user \n        ^^^^\n\nSyntaxError: Missing initializer in const declaration\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1176:20)\n    at Module._compile (node:internal/modules/cjs/loader:1218:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"error","message":"auth is not defined auth is not defined","stack":"ReferenceError: auth is not defined\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:12:19)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:6:15)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"Identifier 'auth' has already been declared Identifier 'auth' has already been declared","stack":"D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\genres.js:2\nconst auth = require(\"../middleware/auth\");\n      ^\n\nSyntaxError: Identifier 'auth' has already been declared\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1176:20)\n    at Module._compile (node:internal/modules/cjs/loader:1218:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:1:16)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)"}
+{"level":"error","message":"Identifier 'auth' has already been declared Identifier 'auth' has already been declared","stack":"D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\genres.js:2\nconst auth = require(\"../middleware/auth\");\n      ^\n\nSyntaxError: Identifier 'auth' has already been declared\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1176:20)\n    at Module._compile (node:internal/modules/cjs/loader:1218:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\startup\\routes.js:1:16)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"Unexpected token '}' Unexpected token '}'","stack":"D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\models\\user.js:46\n  });\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1176:20)\n    at Module._compile (node:internal/modules/cjs/loader:1218:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\routes\\users.js:6:28)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to MongoDB..."}
+{"body":"{\n\t\"email\": \"admintest@gmail.com\",\n\t\"password\": \"123456\",\n}","expose":true,"level":"error","message":"Unexpected token } in JSON at position 58 Unexpected token } in JSON at position 58","stack":"SyntaxError: Unexpected token } in JSON at position 58\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\n\t\"email\": \"admintest@gmail.com\",\n\t\"password\": \"123456\",\n}","expose":true,"level":"error","message":"Unexpected token } in JSON at position 58 Unexpected token } in JSON at position 58","stack":"SyntaxError: Unexpected token } in JSON at position 58\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\n\t\"email\": \"admintest@gmail.com\",\n\t\"password\": \"123456\",\n}","expose":true,"level":"error","message":"Unexpected token } in JSON at position 58 Unexpected token } in JSON at position 58","stack":"SyntaxError: Unexpected token } in JSON at position 58\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"body":"{\n\t\"email\": \"admintest@gmail.com\",\n\t\"password\": \"123456\",\n}","expose":true,"level":"error","message":"Unexpected token } in JSON at position 58 Unexpected token } in JSON at position 58","stack":"SyntaxError: Unexpected token } in JSON at position 58\n    at JSON.parse (<anonymous>)\n    at parse (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Mazen\\Courses\\Programming\\VSC\\Node.JS\\vidly-app\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","status":400,"statusCode":400,"type":"entity.parse.failed"}

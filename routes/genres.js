@@ -1,3 +1,5 @@
+const admin = require("../middleware/admin");
+const auth = require("../middleware/auth");
 const express = require("express");
 const router = express.Router();
 const { Genre, validate } = require("../models/genre");
@@ -9,13 +11,11 @@ router.use(express.urlencoded({ extended: true }));
 // p.then(() => console.log("Done"));
 
 router.get("/", async (req, res, next) => {
-  throw new Error("Could not get the genres.");
-
   const genres = await Genre.find().sort("name");
   res.send(genres);
 });
 
-router.post("/", async (req, res) => {
+router.post("/", auth, async (req, res, next) => {
   const { error } = validate(req.body);
 
   if (error) {
@@ -26,7 +26,7 @@ router.post("/", async (req, res) => {
   res.send(genre);
 });
 
-router.put("/:id", async (req, res) => {
+router.put("/:id", auth, async (req, res, next) => {
   const { error } = validate(req.body);
 
   if (error) {
@@ -44,7 +44,7 @@ router.put("/:id", async (req, res) => {
   res.send(genre);
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", [auth, admin], async (req, res, next) => {
   const genre = await Genre.findByIdAndRemove(req.params.id);
 
   if (!genre)
@@ -53,7 +53,7 @@ router.delete("/:id", async (req, res) => {
   res.send(genre);
 });
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", async (req, res, next) => {
   const genre = await Genre.findById(req.params.id);
   if (!genre) res.status(404).send("The genre with the given ID wasn't found.");
   res.send(genre);
